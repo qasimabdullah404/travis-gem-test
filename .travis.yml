@@ -4,91 +4,136 @@ language: ruby
 
 jobs:
   include:
-    - dist: xenial
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: xenial
       ruby:
         - 2.4
       script:
         - gem install travis
         - yes | travis version
-    - dist: bionic
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: bionic
       ruby:
         - 2.4
       script:
         - gem install travis
         - yes | travis version
-    - dist: focal
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: focal
       ruby:
         - 2.4
       script:
         - gem install travis
         - yes | travis version
-    - dist: xenial
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: xenial
       ruby:
         - 2.5
       script:
         - gem install travis
         - yes | travis version
-    - dist: bionic
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: bionic
       ruby:
         - 2.5
       script:
         - gem install travis
         - yes | travis version
-    - dist: focal
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: focal
       ruby:
         - 2.5
       script:
         - gem install travis
         - yes | travis version
-    - dist: xenial
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: xenial
       ruby:
         - 2.6
       script:
         - gem install travis
         - yes | travis version
-    - dist: bionic
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: bionic
       ruby:
         - 2.6
       script:
         - gem install travis
         - yes | travis version
-    - dist: focal
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: focal
       ruby:
         - 2.6
       script:
         - gem install travis
         - yes | travis version
-    - dist: xenial
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: xenial
       ruby:
         - 2.7
       script:
         - gem install travis
         - yes | travis version
-    - dist: bionic
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: bionic
       ruby:
         - 2.7
       script:
         - gem install travis
         - yes | travis version
-    - dist: focal
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: focal
       ruby:
         - 2.7
       script:
         - gem install travis
         - yes | travis version
-    - dist: xenial
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: xenial
       ruby:
         - 3.0
       script:
         - gem install travis
         - yes | travis version
-    - dist: bionic
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: bionic
       ruby:
         - 3.0
       script:
         - gem install travis
         - yes | travis version
-    - dist: focal
+    - os: linux
+      dist: focal
+      language: ruby
+      dist: focal
       ruby:
         - 3.0
       script:
