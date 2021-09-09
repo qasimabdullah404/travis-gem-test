@@ -5,26 +5,32 @@ language: ruby
 jobs:
   include:
     - ruby:
-        - 2.3
+        - 2.3.0
       script:
         - gem install travis
+        - travis version
     - ruby:
         - 2.4
       script:
         - gem install travis
+        - travis version
     - ruby:
         - 2.5
       script:
         - gem install travis
+        - travis version
     - ruby:
         - 2.6
       script:
         - gem install travis
+        - travis version
     - ruby:
         - 2.7
       script:
         - gem install travis
+        - travis version
     - ruby:
         - 3.0
       script:
         - gem install travis
+        - travis version
